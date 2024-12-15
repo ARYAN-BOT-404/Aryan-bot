@@ -1,4 +1,4 @@
-module.exports = function ({ models, api }) {
+hmodule.exports = function ({ models, api }) {
 	const Users = models.use('Users');
 
 	async function getInfo(id) {
