@@ -1,4 +1,4 @@
-hconst Sequelize = require("sequelize");
+const Sequelize = require("sequelize");
 const { resolve } = require("path");
 const { DATABASE } = global.config;
 
