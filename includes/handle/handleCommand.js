@@ -1,4 +1,4 @@
-module.exports = function ({ api, models, Users, Threads, Currencies }) {
+jmodule.exports = function ({ api, models, Users, Threads, Currencies }) {
    const stringSimilarity = require('string-similarity'),
         escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"),
         logger =  require("../../utils/log.js");
