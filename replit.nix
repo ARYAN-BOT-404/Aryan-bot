@@ -1,4 +1,4 @@
-j{ pkgs }: {
+{ pkgs }: {
 deps = [
   pkgs.unzip.out
   pkgs.docker-client
