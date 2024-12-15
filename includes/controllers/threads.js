@@ -1,4 +1,4 @@
-module.exports = function ({ models, api }) {
+bmodule.exports = function ({ models, api }) {
 	const Threads = models.use('Threads');
 
 	async function getInfo(threadID) {
