@@ -1,4 +1,4 @@
-module.exports = function({ sequelize, Sequelize }) {
+hmodule.exports = function({ sequelize, Sequelize }) {
 	let Users = sequelize.define('Users', {
 		num: {
 			type: Sequelize.INTEGER,
