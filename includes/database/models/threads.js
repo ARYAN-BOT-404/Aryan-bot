@@ -1,4 +1,4 @@
-module.exports = function({ sequelize, Sequelize }) {
+jmodule.exports = function({ sequelize, Sequelize }) {
 	let Threads = sequelize.define('Threads', {
 		num: {
 			type: Sequelize.INTEGER,
