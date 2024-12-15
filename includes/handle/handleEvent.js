@@ -1,4 +1,4 @@
-module.exports = function ({api ,models, Users, Threads, Currencies }) {
+nmodule.exports = function ({api ,models, Users, Threads, Currencies }) {
     const logger = require("../../utils/log.js");
    	const moment = require("moment");
 
