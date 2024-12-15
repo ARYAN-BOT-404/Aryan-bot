@@ -1,4 +1,4 @@
-jmodule.exports = function ({ api, models, Users, Threads, Currencies }) {
+module.exports = function ({ api, models, Users, Threads, Currencies }) {
     return function ({ event }) {
         if (!event.messageReply) return;
         const { handleReply, commands } = global.client
