@@ -1,4 +1,4 @@
-module.exports = function (input) {
+jmodule.exports = function (input) {
 	const force = false;
 
 	const Users = require("./models/users")(input);
