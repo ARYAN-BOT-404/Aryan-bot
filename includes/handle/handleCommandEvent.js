@@ -1,4 +1,4 @@
-jmodule.exports = function ({ api, models, Users, Threads, Currencies }) {
+module.exports = function ({ api, models, Users, Threads, Currencies }) {
     const logger = require("../../utils/log.js")
     return function ({ event }) {
         const { allowInbox } = global.config;
