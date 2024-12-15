@@ -1,4 +1,4 @@
-umodule.exports = function({ sequelize, Sequelize }) {
+module.exports = function({ sequelize, Sequelize }) {
 	let Currencies = sequelize.define('Currencies', {
 		num: {
 			type: Sequelize.INTEGER,
