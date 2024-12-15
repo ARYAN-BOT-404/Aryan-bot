@@ -1,4 +1,4 @@
-module.exports = function ({ models }) {
+jmodule.exports = function ({ models }) {
 	const Currencies = models.use('Currencies');
 
 	async function getAll(...data) {
